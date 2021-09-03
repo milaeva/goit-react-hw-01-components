@@ -1,0 +1,20 @@
+.table {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(62, 40, 185, 0.112);
+}
+
+.title {
+  padding: 10px;
+}
+
+.line {
+  background-color: rgba(138, 226, 248, 0.699);
+}
+
+.value {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(138, 226, 248, 0.199);
+}

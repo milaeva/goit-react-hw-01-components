@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  grid-gap: 1em;
+  grid-auto-rows: 60px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  border-radius: 5px;
+  background-color: rgb(9, 216, 243, 0.2);
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.online {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(3, 170, 67);
+}
+
+.ofline {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(7, 0, 2, 0.1);
+}
